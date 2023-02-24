@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: abd8eb3c913b6284e97955569e037e3c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Retro Land Mayhem
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6084c1d6ff5dbe94ea9cedff4fa98a93, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
