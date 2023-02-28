@@ -68,6 +68,18 @@ public class SkinShop : MonoBehaviour
     {
         SkinsAll[14].BuyIt();
     }
+    public void darkBlueBuy()
+    {
+        SkinsAll[15].BuyIt();
+    }
+    public void PinkBuy()
+    {
+        SkinsAll[16].BuyIt();
+    }
+    public void noBuy()
+    {
+        SkinsAll[17].BuyIt();
+    }
     public void ChooseAny()
     {
         SkinsAll[0].onBut.SetActive(false);
@@ -114,6 +126,15 @@ public class SkinShop : MonoBehaviour
 
         SkinsAll[14].onBut.SetActive(false);
         SkinsAll[14].BuyBut.SetActive(false);
+
+        SkinsAll[15].onBut.SetActive(false);
+        SkinsAll[15].BuyBut.SetActive(false);
+
+        SkinsAll[16].onBut.SetActive(false);
+        SkinsAll[16].BuyBut.SetActive(false);
+
+        SkinsAll[17].onBut.SetActive(false);
+        SkinsAll[17].BuyBut.SetActive(false);
 
     }
 

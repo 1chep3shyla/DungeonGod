@@ -8,7 +8,7 @@ public class PlayerSkins : MonoBehaviour
     public bool[] whichOn;
     private string curAnimation;
     public Animator animator;
-    public Sprite[] hpBar; 
+    public Sprite[] hpBar;
     public GameObject[] sliders;
     public bool workingBar;
     public GameObject player;
@@ -159,6 +159,33 @@ public class PlayerSkins : MonoBehaviour
                     sliders[1].GetComponent<Image>().sprite = hpBar[13];
                 }
             }
+            if (player.GetComponent<PlayerSkins>().whichOn[15] == true)
+            {
+                ChangeAnimation("player_darkBlue_anim");
+                if (workingBar == true)
+                {
+                    sliders[0].GetComponent<Image>().sprite = hpBar[14];
+                    sliders[1].GetComponent<Image>().sprite = hpBar[14];
+                }
+            }
+            if (player.GetComponent<PlayerSkins>().whichOn[16] == true)
+            {
+                ChangeAnimation("player_pink_anim");
+                if (workingBar == true)
+                {
+                    sliders[0].GetComponent<Image>().sprite = hpBar[15];
+                    sliders[1].GetComponent<Image>().sprite = hpBar[15];
+                }
+            }
+            if (player.GetComponent<PlayerSkins>().whichOn[17] == true)
+            {
+                ChangeAnimation("player_no_anim");
+                if (workingBar == true)
+                {
+                    sliders[0].GetComponent<Image>().sprite = hpBar[16];
+                    sliders[1].GetComponent<Image>().sprite = hpBar[16];
+                }
+            }
         }
 
 
@@ -168,6 +195,49 @@ public class PlayerSkins : MonoBehaviour
     {
         animator.Play(animation);
         curAnimation = animation;
+    }
+    public void NoPlayer()
+    {
+        for (int i = 0; i < whichOn.Length; i++)
+        {
+            whichOn[i] = false;
+        }
+        whichOn[17] = true;
+        ChangeAnimation("player_no_anim");
+        if (workingBar == true)
+        {
+            sliders[0].GetComponent<Image>().sprite = hpBar[16];
+            sliders[1].GetComponent<Image>().sprite = hpBar[16];
+        }
+    }
+    public void PinkPlayer()
+    {
+        for (int i = 0; i < whichOn.Length; i++)
+        {
+            whichOn[i] = false;
+        }
+        whichOn[16] = true;
+        ChangeAnimation("player_pink_anim");
+        if (workingBar == true)
+        {
+            sliders[0].GetComponent<Image>().sprite = hpBar[15];
+            sliders[1].GetComponent<Image>().sprite = hpBar[15];
+        }
+    }
+    public void DarkBluePlayer()
+    {
+        for (int i = 0; i < whichOn.Length; i++)
+        {
+            whichOn[i] = false;
+        }
+        whichOn[15] = true;
+        ChangeAnimation("player_darkBlue_anim");
+        if (workingBar == true)
+        {
+            sliders[0].GetComponent<Image>().sprite = hpBar[14];
+            sliders[1].GetComponent<Image>().sprite = hpBar[14];
+
+        }
     }
     public void SkinheadPlayer()
     {
@@ -495,6 +565,60 @@ public class PlayerSkins : MonoBehaviour
                 sliders[1].GetComponent<Image>().sprite = hpBar[0];
             }
         }
+        if (player.GetComponent<PlayerSkins>().whichOn[12] == true)
+        {
+            animator.Play("player_skinhead_anim");
+            if (workingBar == true)
+            {
+                sliders[0].GetComponent<Image>().sprite = hpBar[11];
+                sliders[1].GetComponent<Image>().sprite = hpBar[11];
+            }
+        }
+        if (player.GetComponent<PlayerSkins>().whichOn[13] == true)
+        {
+            animator.Play("player_cb_anim");
+            if (workingBar == true)
+            {
+                sliders[0].GetComponent<Image>().sprite = hpBar[12];
+                sliders[1].GetComponent<Image>().sprite = hpBar[12];
+            }
+        }
+        if (player.GetComponent<PlayerSkins>().whichOn[14] == true)
+        {
+            ChangeAnimation("player_ill_anim");
+            if (workingBar == true)
+            {
+                sliders[0].GetComponent<Image>().sprite = hpBar[13];
+                sliders[1].GetComponent<Image>().sprite = hpBar[13];
+            }
+        }
+        if (player.GetComponent<PlayerSkins>().whichOn[15] == true)
+        {
+            animator.Play("player_darkBlue_anim");
+            if (workingBar == true)
+            {
+                sliders[0].GetComponent<Image>().sprite = hpBar[14];
+                sliders[1].GetComponent<Image>().sprite = hpBar[14];
+            }
+        }
+        if (player.GetComponent<PlayerSkins>().whichOn[16] == true)
+        {
+            animator.Play("player_pink_anim");
+            if (workingBar == true)
+            {
+                sliders[0].GetComponent<Image>().sprite = hpBar[15];
+                sliders[1].GetComponent<Image>().sprite = hpBar[15];
+            }
+        }
+        if (player.GetComponent<PlayerSkins>().whichOn[17] == true)
+        {
+            ChangeAnimation("player_no_anim");
+            if (workingBar == true)
+            {
+                sliders[0].GetComponent<Image>().sprite = hpBar[16];
+                sliders[1].GetComponent<Image>().sprite = hpBar[16];
+            }
+        }
 
     }
     public void ShopOff()
@@ -505,3 +629,4 @@ public class PlayerSkins : MonoBehaviour
 
 
 }
+

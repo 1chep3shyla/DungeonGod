@@ -7,9 +7,9 @@ using UnityEngine;
 [System.Serializable]
 public class PlayerData
 {
-    public bool[] whichSkinOn = new bool [15];
+    public bool[] whichSkinOn = new bool [18];
     public int[] costUpSave = new int[2]; // 0 - dmg ; 1 - hp
-    public bool[] WhichBuy = new bool[15];
+    public bool[] WhichBuy = new bool[18];
     public int KillingMonsters;
     public int Money;
     public int MaxHP;
