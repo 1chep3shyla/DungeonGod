@@ -804,10 +804,9 @@ public class PlayerStats : MonoBehaviour
     }
     public void Restart()
     {
-        if (restartCount >= 5 || GM.GetComponent<GameManager>()._playingTime >= 180f)
+        if (restartCount >= 3 || GM.GetComponent<GameManager>()._playingTime >= 180f)
         {
             ads.ShowAd();
-            ads.LoadAd();
             restartCount = 0;
         }
         else

@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 1
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1371,10 +1383,10 @@ TextureImporter:
       name: MobsPalette_62
       rect:
         serializedVersion: 2
-        x: 52
+        x: 49
         y: 138
-        width: 10
-        height: 13
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1476,9 +1488,9 @@ TextureImporter:
       name: MobsPalette_67
       rect:
         serializedVersion: 2
-        x: 136
+        x: 130
         y: 139
-        width: 11
+        width: 20
         height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1497,9 +1509,9 @@ TextureImporter:
       name: MobsPalette_68
       rect:
         serializedVersion: 2
-        x: 150
+        x: 147
         y: 140
-        width: 14
+        width: 20
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1518,10 +1530,10 @@ TextureImporter:
       name: MobsPalette_69
       rect:
         serializedVersion: 2
-        x: 167
+        x: 164
         y: 138
-        width: 12
-        height: 19
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1539,10 +1551,10 @@ TextureImporter:
       name: MobsPalette_70
       rect:
         serializedVersion: 2
-        x: 184
+        x: 179
         y: 138
-        width: 11
-        height: 16
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1560,10 +1572,10 @@ TextureImporter:
       name: MobsPalette_71
       rect:
         serializedVersion: 2
-        x: 206
-        y: 140
-        width: 22
-        height: 28
+        x: 203
+        y: 138
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1581,10 +1593,10 @@ TextureImporter:
       name: MobsPalette_72
       rect:
         serializedVersion: 2
-        x: 238
-        y: 142
-        width: 22
-        height: 29
+        x: 235
+        y: 138
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1602,10 +1614,10 @@ TextureImporter:
       name: MobsPalette_73
       rect:
         serializedVersion: 2
-        x: 270
+        x: 267
         y: 138
-        width: 22
-        height: 34
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1623,10 +1635,10 @@ TextureImporter:
       name: MobsPalette_74
       rect:
         serializedVersion: 2
-        x: 302
+        x: 299
         y: 138
-        width: 23
-        height: 28
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2321,7 +2333,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2342,7 +2354,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2363,7 +2375,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2384,7 +2396,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2405,7 +2417,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2426,7 +2438,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2447,7 +2459,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2468,7 +2480,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2552,17 +2564,17 @@ TextureImporter:
       MobsPalette_71: 1746162950
       MobsPalette_74: 1224269435
       MobsPalette_95: -2107938847
-      MobsPalette_81: -442524740
+      MobsPalette_111: 1379579496
       MobsPalette_37: 3623134
       MobsPalette_70: 923496189
       MobsPalette_76: 842390292
       MobsPalette_103: -1092175801
+      MobsPalette_81: -442524740
       MobsPalette_89: 1089554512
+      MobsPalette_109: -1351411926
       MobsPalette_94: -1716739298
       MobsPalette_16: -2080057794
-      MobsPalette_109: -1351411926
       MobsPalette_62: -1445910060
-      MobsPalette_111: 1379579496
       MobsPalette_0: -862329258
       MobsPalette_34: -392169248
       MobsPalette_57: 216836087

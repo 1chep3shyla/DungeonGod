@@ -125,6 +125,18 @@ TextureImporter:
     overridden: 1
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1757,8 +1769,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       tilesetDungeon_22: 1491371759
-      tilesetDungeon_11: 755062354
-      tilesetDungeon_42: 1941472441
+      tilesetDungeon_52: 1403379323
+      tilesetDungeon_56: 1797228000
       tilesetDungeon_2: -870597954
       tilesetDungeon_33: 1336384932
       tilesetDungeon_28: -76590364
@@ -1792,12 +1804,12 @@ TextureImporter:
       tilesetDungeon_54: 1274181106
       tilesetDungeon_61: -1408009311
       tilesetDungeon_12: 1654131754
-      tilesetDungeon_5: 1703434525
-      tilesetDungeon_50: -913547665
+      tilesetDungeon_19: 1129869557
+      tilesetDungeon_41: -1441111638
       tilesetDungeon_24: -541126470
       tilesetDungeon_17: 1124563662
-      tilesetDungeon_41: -1441111638
-      tilesetDungeon_19: 1129869557
+      tilesetDungeon_50: -913547665
+      tilesetDungeon_5: 1703434525
       tilesetDungeon_29: 1316172074
       tilesetDungeon_25: 83369910
       tilesetDungeon_47: 1607207494
@@ -1831,8 +1843,8 @@ TextureImporter:
       tilesetDungeon_38: -1878225908
       tilesetDungeon_60: -1896703224
       tilesetDungeon_13: -951375533
-      tilesetDungeon_52: 1403379323
-      tilesetDungeon_56: 1797228000
+      tilesetDungeon_11: 755062354
+      tilesetDungeon_42: 1941472441
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

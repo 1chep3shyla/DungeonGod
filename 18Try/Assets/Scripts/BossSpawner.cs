@@ -40,5 +40,11 @@ public class BossSpawner : MonoBehaviour
             GameObject copy = (Instantiate(Bosses[4], transform.position, Quaternion.identity));
             GameM.GetComponent<GameManager>().bossIs[4] = true;
         }
+        if (GameM.GetComponent<GameManager>()._playingTime >= 860 && GameM.GetComponent<GameManager>().bossIs[5] == false)
+        {
+            particalSpawn.Play();
+            GameObject copy = (Instantiate(Bosses[5], transform.position, Quaternion.identity));
+            GameM.GetComponent<GameManager>().bossIs[5] = true;
+        }
     }
 }

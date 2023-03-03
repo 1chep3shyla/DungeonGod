@@ -476,6 +476,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: hpBar 3_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 126
+        width: 60
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738ba3aa4e9dad341a1c0b8e6fa8ae5c
+      internalID: 404044844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hpBar 3_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 110
+        width: 60
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d1643a1d58ce646ba9d0ffa139c831
+      internalID: 134327091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hpBar 3_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 94
+        width: 60
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64cc7520d94a0b418dbc1bfcf48fa58
+      internalID: 82157512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -488,9 +551,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       hpBar 3_8: -1426450780
+      hpBar 3_18: 82157512
       hpBar 3_7: -1798791316
       hpBar 3_0: -1639288564
       hpBar 3_13: -1697555003
+      hpBar 3_17: 134327091
       hpBar 3_10: 768328210
       hpBar 3_11: -2017524596
       hpBar 3_2: -929193728
@@ -500,6 +565,7 @@ TextureImporter:
       hpBar 3_9: 780526460
       hpBar 3_15: 1087421936
       hpBar 3_5: 1817196601
+      hpBar 3_16: 404044844
       hpBar 3_1: -1269892202
       hpBar 3_3: 1344189027
       hpBar 3_6: 310153053

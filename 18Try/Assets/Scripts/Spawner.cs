@@ -98,6 +98,18 @@ public class Spawner : MonoBehaviour
             {
                 GameObject copy = (Instantiate(_enemy[17], transform.position, Quaternion.identity));
             }
+            if (_gm.GetComponent<GameManager>()._playingTime >= 770 && _gm.GetComponent<GameManager>()._playingTime < 800)
+            {
+                GameObject copy = (Instantiate(_enemy[16], transform.position, Quaternion.identity));
+            }
+            if (_gm.GetComponent<GameManager>()._playingTime >= 800 && _gm.GetComponent<GameManager>()._playingTime < 830)
+            {
+                GameObject copy = (Instantiate(_enemy[17], transform.position, Quaternion.identity));
+            }
+            if (_gm.GetComponent<GameManager>()._playingTime >= 830 && _gm.GetComponent<GameManager>()._playingTime < 860)
+            {
+                GameObject copy = (Instantiate(_enemy[18], transform.position, Quaternion.identity));
+            }
             _spawnTime = 0f;
                 _count += 1;
         }
